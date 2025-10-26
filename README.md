@@ -53,7 +53,6 @@ This integration allows EmpowerNet to offer **real-time, context-aware** scam de
 2. Paste or upload suspicious text, email, or link.  
 3. The AI model from Hugging Face analyzes it within seconds.  
 4. View scam probability and take preventive actions.  
-
 ---
 
 
