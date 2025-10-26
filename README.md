@@ -1,60 +1,47 @@
+RMPowerNet – AI Scam Detection Platform
+Overview
 
-# 🩵 EmpowerNet – AI Scam Detection Platform
+RMPowerNet is an AI-driven platform designed to detect and prevent online scams in real time. It analyzes messages, emails, and links using advanced natural language processing models to identify potential fraud or malicious intent before any damage occurs.
 
-### 🚨 Empowering People to Outsmart Scammers
+Key Features
 
-**EmpowerNet** is a next-generation AI-powered web application designed to detect and prevent online scams in real time.  
-It acts as your digital safety shield — identifying fraud attempts hidden in messages, emails, and links within seconds.
+Scam Text Detection: Instantly analyze messages or emails for potential scam or phishing indicators.
 
----
+Link Safety Analysis: Check suspicious links for redirection, malicious content, or fraudulent domains.
 
-## 💡 Overview
+User Dashboard: View threat history, reports, and evidence logs for better awareness and control.
 
-EmpowerNet analyzes text-based content using advanced natural language processing (NLP) models to detect potential scam, phishing, or fraudulent intent.  
-The system empowers users to stay protected against online threats using a simple, user-friendly dashboard and AI-based content analysis.
+Real-Time Alerts: Receive instant notifications when a potential scam is detected.
 
----
+AI Insights: Uses pre-trained Hugging Face transformer models for contextual scam detection and classification.
 
-## ⚙️ Tech Stack
+Tech Stack
 
-- **Frontend:** React.js, Tailwind CSS  
-- **Backend:** Node.js, Express.js  
-- **Database:** Firebase (Authentication, Storage)  
-- **AI Integration:** Pre-trained NLP Model (Hugging Face)  
-- **Version Control:** Git & GitHub  
+Frontend: React.js, Tailwind CSS
 
----
+Backend: Node.js, Express.js
 
-## 🤖 AI & Model Details
+Database: MongoDB
 
-EmpowerNet uses a **Hugging Face pre-trained transformer model** for scam and phishing content classification.  
-The model processes user-input text, emails, or messages and provides instant insights about potential risk levels:
-- **Safe**
-- **Suspicious**
-- **High Risk (Scam Likely)**
+AI/ML: Hugging Face pre-trained models (e.g., BERT, DistilBERT) integrated via API
 
-This integration allows EmpowerNet to offer **real-time, context-aware** scam detection without needing user data storage or retraining.
+Authentication: JWT-based secure login system
 
----
+How It Works
 
-## 🧭 Core Features
+Users paste or upload suspicious content (text or links).
 
-- 🧠 **AI Scam Detection:** Instantly analyze messages, links, or emails using NLP.
-- 📊 **Interactive Dashboard:** Displays recent scans, active alerts, and scam detection history.
-- 🔍 **Quick Scan:** One-click content analysis.
-- 📁 **Evidence Log:** Save and view previous scam reports.
-- ⚠️ **Alerts:** Real-time notifications for detected risks.
-- 🛡️ **Secure Authentication:** Firebase-based login system.
+The backend sends the data to the AI model for analysis.
+Future Enhancements
 
----
+Voice and deepfake scam detection
 
-## 🚀 How It Works
+Multi-language support
 
-1. Login or sign up securely.  
-2. Paste or upload suspicious text, email, or link.  
-3. The AI model from Hugging Face analyzes it within seconds.  
-4. View scam probability and take preventive actions.  
+Browser extension integration
 
----
+Email scanning API
 
+The model returns a classification (safe, suspicious, or scam).
 
+The platform displays a detailed report with risk levels and recommendations.
